@@ -5,6 +5,9 @@ let lexer = new Tokenizr()
 //let s = "xx${id}${name}xxx$"
 let s = "this is a $[comp-name::textinput::I am placeholder], and we support $[comp_business::list::I am a list::style1], thanks for watching."
 
+
+
+
 function parse_tag(s) {
 
     // ${comp-name::textinput::I am placeholder::style-as-line}
